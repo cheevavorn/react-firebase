@@ -23,9 +23,10 @@ class App extends Component {
   }
 
   render() {
+    let title = "Simple Firebase App";
     return (
       <div className="container">
-        <Header title="Simple Firebase App" />
+        <Header title={title} />
         <div className="columns">
           <div className="column is-3" />
           <div className="column is-6">
